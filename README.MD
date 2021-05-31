@@ -2,8 +2,8 @@
 
 ### What?
 
-- Store multiple values of a specified type,
-- Searchable (using Index 0)
+- Store multiple values of a specified type.
+- Searchable (using Index 0).
 
 Collecting data under one variable name.
 
