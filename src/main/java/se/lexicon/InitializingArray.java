@@ -1,5 +1,10 @@
 package se.lexicon;
 
+/**
+ * As you might see there are many ways of creating a Array.
+ * Feel free to use the one you understand and fits in you situation.
+ *
+ */
 public class InitializingArray {
 
     public static void main(String[] args) {
@@ -11,23 +16,18 @@ public class InitializingArray {
 
         float floatingPoints[]; //Additional way of creating an Array. (it's not instantiated yet)
 
-        char[] word = new char[] {'J', 'A', 'V', 'A'}; //Could be done like this.
+        char[] word = new char[] {'J', 'A', 'V', 'A'}; //An char array of Size 4 and can be accessed through "word".
 
-        String[] sentence = {"Hi", "group37", "nice", "to", "meet", "you"}; //Or like this.. ;)
-
-
-        int[] counting = new int[5]; // Even this is good.
-        counting[0] = 1;
-        counting[1] = 2;
-        counting[2] = 3;
-        counting[3] = 4;
-        counting[4] = 5;
+        String[] sentence = {"Hi", "group37", "nice", "to", "meet", "you"}; // String Array of size 6 (0-5 index) containing words.
 
 
-        /*
-        As you might see there are many ways of creating a Array.
-        Feel free to use the one you understand and fits in you situation.
-         */
+        int[] counting = new int[5]; // Creating a int Array of size 5. (looks like this [0, 0, 0, 0, 0])
+        counting[0] = 1;    //[1, 0, 0, 0, 0]
+        counting[1] = 2;    //[1, 2, 0, 0, 0]
+        counting[2] = 3;    //[1, 2, 3, 0, 0]
+        counting[3] = 4;    //[1, 2, 3, 4, 0]
+        counting[4] = 5;    //[1, 2, 3, 4, 5]
+
 
     }
 }
